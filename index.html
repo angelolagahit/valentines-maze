@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelique's Valentine's Maze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Angelique's Valentine's Maze 💖</h1>
+    <canvas id="mazeCanvas"></canvas>
+    <p id="message"></p>
+
+    <!-- End Screen (Initially Hidden) -->
+    <div id="endScreen">
+        <h2>You found your way to my heart! 💖</h2>
+        <p id="responseMessage">Will you be my Valentine?</p>
+        <img id="noImage" src="images/start.jpg" alt="Reaction Image" class="hidden">
+        <img id="yesImage" src="images/happy.jpg" alt="Happy Image" class="hidden">
+        <button id="yesButton">Yes 💕</button>
+        <button id="noButton">No 💔</button>
+    </div>
+    
+    
+
+    <script src="game.js"></script>
+</body>
+</html>
